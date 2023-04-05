@@ -7,9 +7,6 @@ st.markdown('''
 ## Suba um arquivo e veja o que acontece 😊❤️
 ''')
 
-st.text_input(label='Insira o e-mail', max_chars=10)
-st.text_input(label='Insira a senha', max_chars=10, type='password')
-
 arquivo = st.file_uploader(
     label='Suba seu arquivo aqui',
     type=['jpg', 'png', 'py', 'mp3', 'csv', 'json']
