@@ -19,7 +19,7 @@ if arquivo:
             st.json(loads(arquivo.read()))
         case 'image', _:
             st.image(arquivo)
-        case 'text', 'octect-stream':
+        case 'application', 'octect-stream':
             st.code(arquivo.read().decode())
         case 'text', 'csv':
             df = read_csv(arquivo).transpose()
