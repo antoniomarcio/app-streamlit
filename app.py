@@ -3,7 +3,7 @@ import streamlit as st
 from pandas import read_csv
 
 st.markdown('''
-# Visualizador de arquivos
+# Visualizador de arquivos - Antônio Márcio
 ## Suba um arquivo e veja o que acontece 😊❤️
 ''')
 
